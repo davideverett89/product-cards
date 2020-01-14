@@ -52,6 +52,7 @@ h2 {
 }
 
 .section-1 {
+    border: solid;
     position: relative;
     bottom: 30px;
     display:block;
@@ -60,16 +61,18 @@ h2 {
 }
 
 .section-2 {
+    border: solid;
     position: relative;
-    top: 50px;
+    top: 40px;
     display: block;
     height: 50px;
     margin: 5px;
 }
 
 .section-3 {
+    border: solid;
     position: relative;
-    top: 100px;
+    top: 150px;
 }
 
 
