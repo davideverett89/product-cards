@@ -1,16 +1,21 @@
 body {
-    background-color: rgb(189, 174, 165);
+    background-color: #fffdd0;
     font-family: sans-serif;
 }
 
 .title-card {
     display: block;
     text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    text-decoration: underline;
 }
 
 h2 {
     text-decoration: underline;
     font-size: medium;
+    border: solid 1px lightblue;
 }
 
 .master-div {
@@ -18,7 +23,6 @@ h2 {
     margin: auto;
     width: 950px;
     height: 700px;
-    border: solid lightblue;
     padding: 10px;
     display: flex;
     flex-flow: row wrap;
@@ -28,10 +32,46 @@ h2 {
 
 .master-div div {
     display: block;
-    background-color: khaki;
+    background-color: rgb(78, 221, 240);
     padding: 15px;
     margin: 10px;
-    width: 260px;
-    height: 290px;
+    width: 266px;
+    height: 500px;
     text-align: center;
+    border: 30px black;
+    border-radius: 10px;
+    box-shadow: 8px 5px gray;
 }
+
+.master-div div:hover {
+    background-color: lightsalmon;
+}
+
+.div-1 {
+    border: solid black;
+}
+
+.section-1 {
+    position: relative;
+    bottom: 30px;
+    display:block;
+    height: 50px;
+    margin: 5px;
+}
+
+.section-2 {
+    position: relative;
+    top: 50px;
+    display: block;
+    height 50px;
+    margin: 5px;
+}
+
+.section-3 {
+    position: relative;
+    top: 100px;
+}
+
+
+
+
