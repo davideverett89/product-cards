@@ -61,7 +61,7 @@ h2 {
 
 .section-2 {
     position: relative;
-    top: 90px;
+    top: 180px;
     display: block;
     height: 50px;
     margin: 5px;
@@ -69,7 +69,7 @@ h2 {
 
 .section-3 {
     position: relative;
-    top: 220px;
+    top: 270px;
 }
 
 p {
