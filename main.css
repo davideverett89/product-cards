@@ -1,5 +1,5 @@
 body {
-    background-color: #fffdd0;
+    background-color: #f1ffd0;
     font-family: sans-serif;
 }
 
@@ -44,7 +44,7 @@ h2 {
 }
 
 .master-div div:hover {
-    background-color: lightsalmon;
+    background-color: rgb(221, 196, 186);
 }
 
 .div-1 {
@@ -52,7 +52,6 @@ h2 {
 }
 
 .section-1 {
-    border: solid;
     position: relative;
     top: 20px;
     display:block;
@@ -61,16 +60,14 @@ h2 {
 }
 
 .section-2 {
-    border: solid;
     position: relative;
-    top: 80px;
+    top: 90px;
     display: block;
     height: 50px;
     margin: 5px;
 }
 
 .section-3 {
-    border: solid;
     position: relative;
     top: 220px;
 }
@@ -87,7 +84,14 @@ p {
 
 h4 {
     position: relative;
-    bottom: 5px;
+    bottom: 6px;
+}
+
+img {
+    position: relative;
+    bottom: 20px;
+    width: 100px;
+    height: 100px;
 }
 
 
