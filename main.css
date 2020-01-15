@@ -1,5 +1,4 @@
 body {
-    background-color: #f1ffd0;
     font-family: sans-serif;
 }
 
@@ -9,20 +8,19 @@ body {
     width: 75%;
     margin: 0 auto;
     margin-bottom: 5px;
-    text-decoration: underline;
 }
 
 h2 {
-    text-decoration: underline;
-    font-size: medium;
     border: solid 1px lightblue;
+    margin: 0;
+    padding: 0;
 }
 
 .master-div {
     display: block;
     margin: auto;
-    width: 950px;
-    height: 700px;
+    width: 90%;
+    height: 100%;
     padding: 10px;
     display: flex;
     flex-flow: row wrap;
@@ -32,20 +30,20 @@ h2 {
 
 .master-div div {
     display: block;
-    background-color: rgb(78, 221, 240);
-    padding: 15px;
+    background-color: rgb(227, 249, 252);
+    padding: 3px;
     margin: 10px;
-    width: 266px;
+    width: 350px;
     height: 500px;
     text-align: center;
     border: 30px black;
-    border-radius: 10px;
+    border-radius: 1px;
     box-shadow: 8px 5px gray;
 }
 
-.master-div div:hover {
+/* .master-div div:hover {
     background-color: rgb(221, 196, 186);
-}
+} */
 
 .div-1 {
     border: solid black;
@@ -53,7 +51,7 @@ h2 {
 
 .section-1 {
     position: relative;
-    top: 20px;
+    top: 200px;
     display:block;
     height: 50px;
     margin: 5px;
@@ -61,15 +59,22 @@ h2 {
 
 .section-2 {
     position: relative;
-    top: 180px;
+    top: 250px;
+    left: 25px;
     display: block;
     height: 50px;
     margin: 5px;
+    line-height: 4px;
 }
 
 .section-3 {
     position: relative;
-    top: 270px;
+    width: 60px;
+    height: 20px;
+    top: 245px;
+    left: 25px;
+    line-height: 3px;
+    border-left: 3px;
 }
 
 p {
@@ -78,11 +83,14 @@ p {
 }
 
 .prod-id {
+    text-align: left;
     position: relative;
     bottom: 17px;
+    font-size: 11px;
 }
 
 h4 {
+    text-align: left;
     position: relative;
     bottom: 6px;
 }
@@ -93,6 +101,23 @@ img {
     width: 100px;
     height: 100px;
 }
+
+.available {
+    font-weight: 800;
+    color: yellow;
+    height: 30px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: slategrey;
+}
+
+/* .subflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+} */
 
 
 
