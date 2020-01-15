@@ -32,18 +32,14 @@ h2 {
     display: block;
     background-color: rgb(227, 249, 252);
     padding: 3px;
-    margin: 10px;
-    width: 350px;
-    height: 500px;
+    margin: 20px;
+    width: 315px;
+    height: 540px;
     text-align: center;
     border: 30px black;
     border-radius: 1px;
     box-shadow: 8px 5px gray;
 }
-
-/* .master-div div:hover {
-    background-color: rgb(221, 196, 186);
-} */
 
 .div-1 {
     border: solid black;
@@ -51,19 +47,22 @@ h2 {
 
 .section-1 {
     position: relative;
-    top: 200px;
+    top: 80px;
     display:block;
     height: 50px;
-    margin: 5px;
+    margin: 0;
+    padding: 0;
 }
 
 .section-2 {
     position: relative;
-    top: 250px;
-    left: 25px;
     display: block;
+    clear: none;
+    top: 330px;
+    left: 10px;
     height: 50px;
-    margin: 5px;
+    padding: 0;
+    margin: 0;
     line-height: 4px;
 }
 
@@ -71,15 +70,17 @@ h2 {
     position: relative;
     width: 60px;
     height: 20px;
-    top: 245px;
-    left: 25px;
+    top: 316px;
+    left: 15px;
     line-height: 3px;
     border-left: 3px;
+    margin: 0;
+    padding: 0;
 }
 
 p {
     position: relative;
-    bottom: 5px;
+    bottom: 30px;
 }
 
 .prod-id {
@@ -93,31 +94,37 @@ h4 {
     text-align: left;
     position: relative;
     bottom: 6px;
+    font-weight: 400;
 }
 
 img {
     position: relative;
-    bottom: 20px;
-    width: 100px;
-    height: 100px;
+    display: block;
+    bottom: 80px;
+    width: 260px;
+    height: 260px;
 }
 
 .available {
+    text-align: justify;
     font-weight: 800;
     color: yellow;
-    height: 30px;
+    height: 20px;
     width: 100%;
     padding: 0;
     margin: 0;
     background-color: slategrey;
 }
 
-/* .subflex {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
-} */
+footer {
+    clear: none;
+    position: relative;
+    display: block;
+    bottom: 20px;
+    right: 115px;
+    font-size: 9px;
+}
+
 
 
 
