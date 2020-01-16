@@ -10,10 +10,23 @@ body {
     margin-bottom: 5px;
 }
 
-h2 {
+/* h2 {
+    text-align: center;
     border: solid 1px lightblue;
     margin: 0;
     padding: 0;
+    height: 42px;
+} */
+
+h2 {
+    border: solid 1px lightblue;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
 
 .master-div {
@@ -30,8 +43,7 @@ h2 {
 
 .master-div div {
     display: block;
-    background-color: rgb(227, 249, 252);
-    padding: 3px;
+    background-color: rgba(221, 224, 224, 0.952);
     margin: 20px;
     width: 315px;
     height: 540px;
@@ -39,6 +51,7 @@ h2 {
     border: 30px black;
     border-radius: 1px;
     box-shadow: 8px 5px gray;
+    padding: 0;
 }
 
 .div-1 {
@@ -46,31 +59,33 @@ h2 {
 }
 
 .section-1 {
+    text-align: center;
     position: relative;
-    top: 80px;
-    display:block;
+    top: -3px;
+    display: block;
     height: 50px;
     margin: 0;
-    padding: 0;
+    margin-left: 1px;
+    padding: 0.5px;
 }
 
 .section-2 {
     position: relative;
     display: block;
     clear: none;
-    top: 330px;
+    top: 296px;
     left: 10px;
-    height: 50px;
+    height: 40px;
     padding: 0;
     margin: 0;
-    line-height: 4px;
+    line-height: 3px;
 }
 
 .section-3 {
     position: relative;
-    width: 60px;
-    height: 20px;
-    top: 316px;
+    width: 80px;
+    height: 10px;
+    top: 291px;
     left: 15px;
     line-height: 3px;
     border-left: 3px;
@@ -79,12 +94,14 @@ h2 {
 }
 
 p {
+    padding : 0px;
     position: relative;
     bottom: 30px;
 }
 
 .prod-id {
-    text-align: left;
+    text-align: justify;
+    text-justify: inter-word;
     position: relative;
     bottom: 17px;
     font-size: 11px;
@@ -98,31 +115,56 @@ h4 {
 }
 
 img {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding: 0;
     position: relative;
     display: block;
-    bottom: 80px;
-    width: 260px;
-    height: 260px;
+    left: 83px;
+    bottom: 2px;
+    width: 150px;
+    height: 150px;
 }
 
 .available {
     text-align: justify;
-    font-weight: 800;
+    text-justify: inter-word;
+    position: relative;
+    right: 2px;
+    bottom: 25px;
+    font-size: 12px;
     color: yellow;
     height: 20px;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    background-color: slategrey;
+    width: 310px;
+    padding: 3px;
+    margin: 0px;
+    background-color: rgb(111, 111, 112);
 }
 
 footer {
     clear: none;
     position: relative;
     display: block;
-    bottom: 20px;
-    right: 115px;
+    bottom: 18px;
+    right: 97px;
     font-size: 9px;
+}
+
+.description {
+    padding: 3px;
+    margin-top: 25px;
+    font-size: 13.5px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+strong {
+    font-weight: 500;
+    text-align: justify;
+    position: relative;
+    left: 5px;
+    top: 2px;
 }
 
 
