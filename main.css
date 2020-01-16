@@ -1,5 +1,24 @@
 body {
     font-family: sans-serif;
+    background-color: khaki;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.disappear {
+    display: none;
+}
+
+.image {
+    content: url("https://raw.githubusercontent.com/morecallan/css102-e6/master/images/soldOut.png");
+    opacity: 0.3;
+}
+
+
+.reappear {
+    display: block;
 }
 
 .title-card {
@@ -10,15 +29,15 @@ body {
     margin-bottom: 5px;
 }
 
-/* h2 {
+button {
     text-align: center;
-    border: solid 1px lightblue;
-    margin: 0;
-    padding: 0;
-    height: 42px;
-} */
+    position: relative;
+    left: 700px;
+    margin: 0 auto;
+}
 
 h2 {
+    position: static;
     border: solid 1px lightblue;
     display: block;
     font-size: 1.5em;
@@ -41,21 +60,17 @@ h2 {
     align-items: center;
 }
 
-.master-div div {
+.subflex {
+    background-color: whitesmoke;
     display: block;
-    background-color: rgba(221, 224, 224, 0.952);
     margin: 20px;
     width: 315px;
     height: 540px;
     text-align: center;
-    border: 30px black;
+    border: 60px lightblue;
     border-radius: 1px;
     box-shadow: 8px 5px gray;
     padding: 0;
-}
-
-.div-1 {
-    border: solid black;
 }
 
 .section-1 {
@@ -117,7 +132,7 @@ h4 {
 img {
     margin-top: 5px;
     margin-bottom: 5px;
-    border-radius: 10px;
+    border-radius: 3px;
     padding: 0;
     position: relative;
     display: block;
@@ -131,7 +146,7 @@ img {
     text-align: justify;
     text-justify: inter-word;
     position: relative;
-    right: 2px;
+    right: 1px;
     bottom: 25px;
     font-size: 12px;
     color: yellow;
@@ -143,11 +158,11 @@ img {
 }
 
 footer {
+    text-align: left;
     clear: none;
     position: relative;
     display: block;
     bottom: 18px;
-    right: 97px;
     font-size: 9px;
 }
 
