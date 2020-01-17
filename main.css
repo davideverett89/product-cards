@@ -11,7 +11,7 @@ body {
     display: none;
 }
 
-.image::after{
+.image::after {
     content: url("https://raw.githubusercontent.com/morecallan/css102-e6/master/images/soldOut.png");
     opacity: 1;
     position: relative;
@@ -46,7 +46,6 @@ h2 {
 }
 
 .master-div {
-    display: block;
     margin: auto;
     width: 90%;
     height: 100%;
@@ -147,7 +146,7 @@ img {
     font-size: 12px;
     color: yellow;
     height: 20px;
-    width: 310px;
+    width: 308px;
     padding: 3px;
     margin: 0px;
     background-color: rgb(111, 111, 112);
@@ -176,6 +175,10 @@ strong {
     position: relative;
     left: 5px;
     top: 2px;
+}
+
+.strikethrough {
+    text-decoration: line-through;
 }
 
 
