@@ -7,6 +7,7 @@ function firstFunction() {
   }
 
 function secondFunction() {
-  let randomNumber = Math.floor(Math.random() * 6);
+  let randomNumber = Math.floor(Math.random() * arrayElements.length);
   arrayElements[randomNumber].classList.toggle("image");
+  arrayElements[randomNumber].classList.toggle("strikethrough");
 }
