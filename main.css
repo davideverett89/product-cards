@@ -58,7 +58,6 @@ h2 {
 }
 
 .subflex {
-    border: 1px solid lightblue;
     background-color: #FEFEFA;
     display: block;
     margin: 20px;
@@ -66,7 +65,7 @@ h2 {
     height: 540px;
     text-align: center;
     border-radius: 5px;
-    box-shadow: 20px 18px rgb(138, 137, 137);
+    box-shadow: 7px 12px 10px 7px rgba(0, 0, 0, 0.4);
     padding: 0;
 }
 
