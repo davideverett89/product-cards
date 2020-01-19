@@ -1,12 +1,11 @@
-document.getElementById("myButton").addEventListener("click", firstFunction);
-document.getElementById("secondButton").addEventListener("click", secondFunction);
-let arrayElements = document.getElementsByClassName("subflex");
+// document.getElementById("myButton").addEventListener("click", firstFunction);
+// function firstFunction() {
+//     document.getElementById("main").classList.toggle("reappear");
+//   }
 
-function firstFunction() {
-    document.getElementById("main").classList.toggle("reappear");
-  }
-
-function secondFunction() {
+document.getElementById("secondButton").addEventListener("click", randomizer);
+function randomizer() {
+  let arrayElements = document.getElementsByClassName("subflex");
   let randomNumber = Math.floor(Math.random() * arrayElements.length);
   arrayElements[randomNumber].classList.toggle("image");
   arrayElements[randomNumber].classList.toggle("strikethrough");
