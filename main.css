@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom, #d5cea6 0%,#b7ad70 100%);
+    background-color: khaki;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -73,7 +73,7 @@ h2 {
 }
 
 .subflex {
-    background-color: rgb(255, 255, 255);
+    background-color: whitesmoke;
     flex-grow: 0;
     display: block;
     margin: 20px;
@@ -85,7 +85,7 @@ h2 {
 }
 
 .subflex:hover {
-    filter: brightness(110%);
+    filter: brightness(105%);
 }
 
 .section-1 {
