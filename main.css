@@ -1,3 +1,9 @@
+@media only screen and (max-width: 1000px) {
+    .subflex {
+        flex: 0 20%;
+    }
+}
+
 body {
     background-color: khaki;
     font-family: Arial, Helvetica, sans-serif;
@@ -40,7 +46,7 @@ button {
     border-radius: 8px;
     text-align: center;
     position: relative;
-    left: 733px;
+    left: 735px;
     padding: 0;
     margin: 0 auto;
     border: 2px black;
@@ -63,20 +69,20 @@ h2 {
 
 .master-div {
     margin: auto;
-    width: 90%;
+    width: 85%;
     height: 100%;
     padding: 10px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .subflex {
-    background-color: whitesmoke;
+    background-color: white;
     flex-grow: 0;
     display: block;
-    margin: 20px;
+    margin: 30px;
     width: 315px;
     height: 540px;
     text-align: center;
@@ -85,7 +91,11 @@ h2 {
 }
 
 .subflex:hover {
+    padding: 0;
+    border: 1px solid grey;
     filter: brightness(105%);
+    cursor: default;
+    box-shadow: 10px 15px 14px 9px rgba(0,0,0,0.4);
 }
 
 .section-1 {
@@ -96,7 +106,7 @@ h2 {
     height: 50px;
     margin: 0;
     margin-left: 1px;
-    padding: 0.5px;
+    /* padding: 0.5px; */
 }
 
 .section-2 {
